@@ -14,4 +14,3 @@ function report () {
     }
   } while (age !== button)
 }
- 
