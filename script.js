@@ -4,6 +4,7 @@ document.getElementById('results').addEventListener('click', report)
 function report () {
   do {
     button = prompt('what-is-my-age')
+    button = parseInt(button)
     if (age === button) {
       alert('your right you have gussed my age')
     } else if (age < button) {
@@ -13,3 +14,4 @@ function report () {
     }
   } while (age !== button)
 }
+ 
