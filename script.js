@@ -1,4 +1,4 @@
- const age = 15
+const age = 15
 let button = 0
 document.getElementById('results').addEventListener('click', report)
 function report () {
